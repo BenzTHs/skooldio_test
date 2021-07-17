@@ -75,9 +75,6 @@ function Cards() {
             </Row>
           </div>
         </Card.Body>
-        <div className="rectangle"></div>
-        <h1 className="text-content-round">ดูสัดส่วนคะแนน</h1>
-        <div className="rectangle"></div>
       </Card>
     </div>
   );
