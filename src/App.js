@@ -1,11 +1,11 @@
-import './App.scss';
-import Cards from '../src/components/Card/Cards';
+import '../src/assets/scss/App.scss';
+import CardAdmission from './components/Card/CardAdmission';
 
 function App() {
   return (
     <div className="App">
       <div className="form-card" align="center">
-        <Cards />
+        <CardAdmission />
       </div>
     </div>
   );

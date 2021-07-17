@@ -1,17 +1,11 @@
 @font-face {
   font-family: Prompt_Regular;
-  src: url('../src/assets/fonts/Prompt-Regular.ttf');
-}
-
-
-@font-face {
-  font-family: Prompt_Medium;
-  src: url('../src/assets/fonts/Prompt-Medium.ttf');
+  src: url('../fonts/Prompt-Regular.ttf');
 }
 
 @font-face {
   font-family: Prompt_Light;
-  src: url('../src/assets/fonts/Prompt-Light.ttf');
+  src: url('../fonts/Prompt-Light.ttf');
 }
 
 * {
@@ -31,7 +25,7 @@ body {
     letter-spacing: normal;
     .card-style {
       width: 442px;
-      margin: 0 16px 0 18px;
+      margin: 20px 16px 0 18px;
       padding: 20px 22px;
       border-radius: 5px;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
