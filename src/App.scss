@@ -1,5 +1,22 @@
+@font-face {
+  font-family: Prompt_Regular;
+  src: url('../src/assets/fonts/Prompt-Regular.ttf');
+}
+
+
+@font-face {
+  font-family: Prompt_Medium;
+  src: url('../src/assets/fonts/Prompt-Medium.ttf');
+}
+
+@font-face {
+  font-family: Prompt_Light;
+  src: url('../src/assets/fonts/Prompt-Light.ttf');
+}
+
 * {
   box-sizing: border-box;
+  font-family: Prompt_Regular, Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -7,7 +24,154 @@ body {
 }
 
 .App {
-  h1{
-    font-size: 200px;
+  .form-card {
+    margin: 150px 0px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    .card-style {
+      width: 442px;
+      margin: 0 16px 0 18px;
+      padding: 20px 22px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+      background-color: #ffffff;
+    }
+    .col-style {
+      padding: 0px 0px;
+    }
+    .text-title{
+      padding-left: 16px;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 0.67;
+      color: #ff5a5a;
+      text-align: left;
+    }
+    .text-sub-title {
+      padding-left: 16px;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 0.8;
+      text-align: left;
+      color: #9b9b9b;
+    }
+    .text-university {
+      font-family: Prompt_Light;
+      padding-left: 16px;
+      padding-top: 24px;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 0.8;
+      text-align: left;
+      color: #9b9b9b;
+    }
+    .icon-engi {
+      width: 80px;
+    }
+    .icon-heart {
+      width: 24px;
+    }
+    .rectangle {
+      width: 402px;
+      height: 3px;
+      margin: 22px 4px 3px 0;
+      border: solid 1px #d8d8d8;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .card-body-style {
+      padding: 0px;
+    }
+    .text-open-round {
+      font-family: Prompt_Light;
+      margin-top: 18px;
+      margin-bottom: 25px;
+      font-size: 20px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.01;
+      letter-spacing: normal;
+      text-align: left;
+      color: #5f5f5f;
+    }
+    .Oval {
+      border-radius: 0.8em;
+      -moz-border-radius: 0.8em;
+      -webkit-border-radius: 0.8em;
+      color: #ffffff;
+      display: inline-block;
+      font-weight: bold;
+      line-height: 1.6em;
+      margin-right: 10px;
+      text-align: center;
+      width: 1.6em; 
+      background-color: #d8d8d8;
+    }
+    .Oval-2 {
+      border-radius: 0.8em;
+      -moz-border-radius: 0.8em;
+      -webkit-border-radius: 0.8em;
+      color: #ffffff;
+      display: inline-block;
+      font-weight: bold;
+      line-height: 1.6em;
+      margin-right: 10px;
+      text-align: center;
+      width: 1.6em; 
+      background-color: #2ecc71;
+    }
+    .text-content-round {
+      margin-top: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1;
+      text-align: left;
+      color: #ff5a5a;
+    }
+    .text-edit {
+      font-size: 12px;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: normal;
+    }
+    .box-edit {
+      border-radius: 0.8em;
+      -moz-border-radius: 0.8em;
+      -webkit-border-radius: 0.8em;
+      color: #ff5a5a;
+      border-radius: 5px;
+      padding: 7px 8px 7px 20px;
+      border-radius: 17.5px;
+      border: solid 1px #ff5a5a;
+      display: inline-block;
+      font-weight: bold;
+      line-height: 1.6em;
+      margin-right: 10px;
+      text-align: center;
+    }
+    .box-score {
+      margin-top: 16px;
+    }
+    .text-content-score {
+      font-size: 12px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      text-align: right;
+      color: #4a4a4a;
+    }
+    .text-content-number {
+      font-size: 42px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: right;
+      color: #4a4a4a;
+    }
   }
 } 

@@ -1,9 +1,12 @@
 import './App.scss';
+import Cards from '../src/components/Card/Cards';
 
 function App() {
   return (
     <div className="App">
-      <h1>TEST</h1>
+      <div className="form-card" align="center">
+        <Cards />
+      </div>
     </div>
   );
 }
