@@ -4,6 +4,7 @@ import iconEngi from '../../assets/icon/engi.svg';
 import iconHeart from '../../assets/icon/page-1.svg';
 import iconHEdit from '../../assets/icon/group-3-copy-4.svg';
 import iconReward from '../../assets/icon/page-1-copy-2.svg';
+import iconShare from '../../assets/icon/group-2.svg';
 
 function Cards() {
   const [hasError, setHasError] = useState(false);
@@ -56,7 +57,7 @@ function Cards() {
               <Col xs={6}>
                 <div className="box-edit">
                   <span className="text-edit"> แก้ไขคะแนน </span>
-                  <img className="icon-heart" src={iconHEdit} alt="iconHeart" />
+                  <img className="icon-edit" src={iconHEdit} alt="iconHeart" />
                 </div>
               </Col>
             </Row>
@@ -75,6 +76,39 @@ function Cards() {
             </Row>
           </div>
         </Card.Body>
+        <div>
+          <Row>
+            <Col>
+              <h1 className="text-score">20,845</h1>
+              <h1 className="text-sub-score">คะแนนต่ำสุด 60</h1>
+            </Col>
+            <Col>
+              <h1 className="text-score">21,345</h1>
+              <h1 className="text-sub-score">คะแนนเฉลี่ย 60 </h1>
+            </Col>
+            <Col>
+              <h1 className="text-score">23,415</h1>
+              <h1 className="text-sub-score">คะแนนสูงสุด 60</h1>
+            </Col>
+          </Row>
+        </div>
+        <div className="rectangle"></div>
+        <div>
+          <h1 className="text-part-score">ดูสัดส่วนคะแนน</h1>
+        </div>
+        <div className="rectangle"></div>
+        <div className="box-share" align="right">
+          <Row>
+            <Col xs={6}>
+              <h1 className="text-content-interes">10 คนที่สนใจ</h1>
+            </Col>
+            <Col xs={6}>
+              <div>
+                <img className="icon-share" src={iconShare} alt="iconHeart" />
+              </div>
+            </Col>
+          </Row>
+        </div>
       </Card>
     </div>
   );
