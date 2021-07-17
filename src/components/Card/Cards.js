@@ -63,8 +63,8 @@ function Cards() {
           </div>
           <div className="box-score">
             <Row>
-              <Col xs={6}>
-                <img className="icon-heart" src={iconReward} alt="iconHeart" />
+              <Col className="box-reward" xs={6} align="left">
+                <img className="icon-reward" src={iconReward} alt="iconHeart" />
               </Col>
               <Col xs={6}>
                 <div>
